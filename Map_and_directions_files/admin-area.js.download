@@ -1,0 +1,1 @@
+!function(){window.localStorage.getItem("access_token")&&(window.IS_ADMIN=!0);window.sessionStorage.getItem("sse_access_token")}();
