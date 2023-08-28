@@ -959,9 +959,7 @@ Open Daily for <a href="http://www.livecambridgesquare.com/self-guidedtour.aspx"
             <div class="row justify-content-end">
                 <div class="col-auto">
                     <!-- Button to trigger modal -->
-                    <div class="btn-launcher-block position-fixed btn-launcher-right">
-                        <a id="fpa-button" href="https://www.cambridgesquareatjuniper.com/#fpaModal1" data-hover-content="Floor Plan Assistant" role="button" class="btn btn-primary btn-launcher" data-toggle="modal" onclick="GASubmitFPATrack(&#39;Open&#39;, &#39;&#39;)">Floor Plan Assistant <span class="sr-only">opens a dialog</span></a>
-                    </div>
+
                 </div>
             </div>
             <div class="modal fade floor-plan-assistant" id="fpaModal1" role="dialog" aria-label="Floorplan Assistant" aria-hidden="true">
@@ -1487,34 +1485,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!---START: Layout horizontal--->
 <!---NOTE:  .frontdesk-animation is used for animation. Remove class if you want to remove animation--->
 
-<div id="frontDesk-widget-horizontal" class="frontDesk-widget-horizontal horizontal position-fixed d-flex frontdesk-animation">
-	<button id="btnFrontDesk" type="button" class="btn btn-primary hide-frontDesk-widget bell animation-bell" aria-expanded="false" data-selenium-id="showHidefrontDeskWidget">
-		<span class="d-block bounce-dot"></span>
-        <span class="btn-bell d-inline-block">
-            <span class="fas fa-concierge-bell" aria-hidden="true"></span>
-            <span class="sr-only">Front desk options </span>
-        </span>
-	</button>
-	<div id="frontDesk-widget-wrapper" class="frontDesk-widget-wrapper close-widget" aria-hidden="true">
-        <!-- Email Us - modal -->
-        <button id="email-us-btn" data-modal-url="/contactus?IsDialog=1&amp;IsFrontDesk=true" onclick="emailGA4track();" type="button" class="btn btn-primary email-us-btn widget-btns trigger-popup" data-selenium-id="emailUs" data-toggle="tooltip" data-placement="top" data-animation="true" data-title="Email Us" data-original-title="Email Us"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="2"><g stroke-width="2" transform="translate(0, 0)"><polyline data-cap="butt" data-color="color-2" points="1.614 3.558 12 13 22.385 3.559" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter"></polyline> <rect x="1" y="3" width="22" height="18" rx="2" ry="2" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></rect></g></svg><span class="sr-only">Email Us</span></button>
-        <!-- Call Us - mobile -->
-        <a id="call-us-btn-phone" href="tel:(816) 286-4755" role="button" class="btn btn-primary click-to-call-href click-to-call-title call-us-btn widget-btns d-inline-block d-md-none" data-selenium-id="callUsPhone" data-toggle="tooltip" data-placement="top" data-animation="true" data-title="Call Us at (913) 951-8031" data-original-title="Call Us at (816) 286-4755" title="Call Us at (816) 286-4755"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 48 48" stroke-width="4"><g stroke-width="4" transform="translate(0, 0)"><path d="M31.041,28.94l-3.423,4.279A36.116,36.116,0,0,1,14.782,20.384l4.279-3.423a2.908,2.908,0,0,0,.84-3.45L16,4.728a2.908,2.908,0,0,0-3.39-1.635L5.186,5.019A2.925,2.925,0,0,0,3.028,8.25,43.142,43.142,0,0,0,39.751,44.973a2.925,2.925,0,0,0,3.23-2.158l1.926-7.425A2.91,2.91,0,0,0,43.273,32l-8.782-3.9A2.907,2.907,0,0,0,31.041,28.94Z" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="4" stroke-linejoin="miter"></path></g></svg><span class="sr-only">Call Us</span></a>
-        <!-- Call Us - desktop -->
-        <button id="call-us-btn" aria-label="Call Us" type="button" class="btn btn-primary click-to-call-title call-us-btn widget-btns trigger-popup d-none d-md-inline-block" data-selenium-id="callUsDesktop" data-toggle="tooltip" data-placement="top" data-animation="true" data-title="Call Us at (913) 951-8031" data-original-title="Call Us at (816) 286-4755" title="Call Us at (816) 286-4755"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 48 48" stroke-width="4"><g stroke-width="4" transform="translate(0, 0)"><path d="M31.041,28.94l-3.423,4.279A36.116,36.116,0,0,1,14.782,20.384l4.279-3.423a2.908,2.908,0,0,0,.84-3.45L16,4.728a2.908,2.908,0,0,0-3.39-1.635L5.186,5.019A2.925,2.925,0,0,0,3.028,8.25,43.142,43.142,0,0,0,39.751,44.973a2.925,2.925,0,0,0,3.23-2.158l1.926-7.425A2.91,2.91,0,0,0,43.273,32l-8.782-3.9A2.907,2.907,0,0,0,31.041,28.94Z" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="4" stroke-linejoin="miter"></path></g></svg></button>
 
-            <!-- Text Us -->
-            <button id="text-us-btn" onclick="textGA4track(&#39;front_desk&#39;);" type="button" class="btn btn-primary text-us-btn widget-btns trigger-popup" data-selenium-id="textUsDesktop" data-toggle="tooltip" data-placement="top" data-animation="true" data-title="Text Us" data-original-title="Text Us"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="2"><g stroke-width="2" transform="translate(0, 0)"><path d="M21,11H13L9,13V3a2,2,0,0,1,2-2H21a2,2,0,0,1,2,2V9A2,2,0,0,1,21,11Z" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" data-color="color-2" stroke-linejoin="miter"></path><path d="M6,3H4A2,2,0,0,0,2,5V21a2,2,0,0,0,2,2H15a2,2,0,0,0,2-2V14" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></path></g></svg><span class="sr-only">Text Us</span></button>
-
-
-
-
-            <!-- Schedule tour -->
-            <button id="schedule-a-tour-btn" data-modal-url="/scheduletour?IsDialog=true" type="button" class="btn btn-primary schedule-a-tour-btn widget-btns trigger-popup" data-selenium-id="scheduleTour" data-toggle="tooltip" data-placement="top" data-animation="true" data-title="Schedule a Tour" data-original-title="Schedule a Tour"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" stroke-width="2"><g stroke-width="2" transform="translate(0, 0)"><rect data-color="color-2" x="5" y="12" width="2" height="1" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></rect> <rect data-color="color-2" x="11" y="12" width="2" height="1" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></rect> <rect data-color="color-2" x="5" y="17" width="2" height="1" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></rect> <rect data-color="color-2" x="11" y="17" width="2" height="1" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></rect> <rect data-color="color-2" x="17" y="12" width="2" height="1" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></rect> <rect data-color="color-2" data-stroke="none" x="5" y="12" width="2" height="1" fill="#ffffff"></rect> <rect data-color="color-2" data-stroke="none" x="11" y="12" width="2" height="1" fill="#ffffff"></rect> <rect data-color="color-2" data-stroke="none" x="5" y="17" width="2" height="1" fill="#ffffff"></rect> <rect data-color="color-2" data-stroke="none" x="11" y="17" width="2" height="1" fill="#ffffff"></rect> <rect data-color="color-2" data-stroke="none" x="17" y="12" width="2" height="1" fill="#ffffff"></rect> <rect x="1" y="3" width="22" height="19" rx="2" ry="2" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></rect> <line x1="6" y1="1" x2="6" y2="4" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></line> <line x1="18" y1="1" x2="18" y2="4" fill="none" stroke="#ffffff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="miter"></line> <line x1="1" y1="8" x2="23" y2="8" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2"></line></g></svg><span class="sr-only">Schedule a Tour</span></button>
-
-
-    </div>
-</div>
 <!---END: Layout horizontal--->
 
             <style>
