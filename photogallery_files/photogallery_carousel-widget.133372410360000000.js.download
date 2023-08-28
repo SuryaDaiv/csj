@@ -1,0 +1,1 @@
+ysi.registerCallback(function(){const a=document.querySelectorAll('.carousel[data-gallery-type="carousel"], .carousel-ysi-lazyinit[data-gallery-type="carousel"]');for(let l=0;l<a.length;++l)new ysiCarousel(a[l],{lightbox:!0,thumbtray:!0,lazyinit:a[l].classList.contains("carousel-ysi-lazyinit"),normalize:!a[l].dataset.hasHeight})});
